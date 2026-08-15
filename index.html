@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="valantinecard.css" />
+  </head>
+  <body>
+    <div id="first">
+      <div class="hearts"></div>
+   
+    
+      <div id="middle">
+        <div id="emogi">🐻‍❄️</div>
+        <h3>Will you be mine valentine?</h3>
+        <div id="buttons">
+  <button id="yes">Yes 💖</button>
+  <button id="No">No 😶</button>
+</div>
+<script>
+  const noBtn = document.getElementById("No");
+
+  noBtn.addEventListener("mouseover", () => {
+    const x = Math.random() * 400;
+    const y = Math.random() * 300;
+    noBtn.style.transform = `translate(${x}px, ${y}px)`;
+  });
+</script>
+
+
+        
+      </div>
+      
+    </div>
+  </body>
+</html>
