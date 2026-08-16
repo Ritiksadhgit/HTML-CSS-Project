@@ -1,0 +1,33 @@
+p{
+    color: rgb(237, 110, 14);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+ font-style:italic ;
+ background-color: antiquewhite;
+}
+h1 {
+    color: blueviolet;
+    text-transform: capitalize;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: line-through;
+    background-color: azure;
+
+}
+#rr{
+    background-color: blanchedalmond;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(229, 52, 173);
+}
+.logo{
+    background-color: aquamarine;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 500px;
+}
